@@ -1,20 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ProductsComponent } from './products/products.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { WebComponent } from './web/web.component';
+import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
+import { ProductComponent } from './product/product.component';
 
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
     AboutComponent,
-    ProductsComponent,
-    ContactsComponent,
-    WebComponent
+    ContactComponent,
+    HomeComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule
